@@ -1,44 +1,31 @@
 # create a new brach and switches to the new branch
-git checkout -b <branch_name>
+$ git checkout -b <branch_name>
+
 
 # to check the branches you have
-git branch
+$ git branch
 
 # to switch between branches
-git switch <branch_name>
+$ git switch <branch_name>
 
 # pull the most recent version of the repo (where main is the main branch)
-git pull origin main
+$ git pull origin main
 
 # add your changes (staged)
-git add --all
+$ git add --all
 
 # commit the changes
-git commit -m "your text"
+$ git commit -m "your text"
 
 # check the status
-git status
+$ git status
 
 # push the changes if you are in a branch
-git push --set-upstream origin <branch_name>
+$ git push --set-upstream origin <branch_name>
 
 # push changes if you are the main branch
-git push -u origin main
+$ git push -u origin main
 
 # delete branch
-git branch -d <branch_name>
-
-# You can now navigate to the repository on your GitHub webpage
-# https://github.com/Breeding-Analytics/bioflow
-# and toggle to the branch you pushed to see the changes you have made in-browser.
-# make the pull request and merge
-
-#####
-
-## reset to the previous commit (the 1 can be a greater number to go to an earlier version)
-git reset --hard HEAD~1
-
-# other potentially useful code
-git config --global --edit
-git commit --amend --reset-author
+$ git branch -d <branch_name>
 
