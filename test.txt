@@ -1,0 +1,4 @@
+Example:
+
+Create new branch
+$ git checkout -b issue_1
