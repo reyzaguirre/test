@@ -1,6 +1,8 @@
 # create a new brach and switches to the new branch
 $ git checkout -b <branch_name>
-
+Do the same as:
+$ git branch <branch_name>
+$ git checkout <branch_name>
 
 # to check the branches you have
 $ git branch
