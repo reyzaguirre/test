@@ -29,5 +29,8 @@ $ git push --set-upstream origin <branch_name>
 $ git push -u origin main
 
 # delete branch
+$ git fetch -p
 $ git branch -d <branch_name>
 
+# Delete branch in remote:
+git remote prune origin
